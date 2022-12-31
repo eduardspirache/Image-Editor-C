@@ -8,26 +8,26 @@ I developed a Netpbm image editor during my first year at university, which did 
 |      RGB           |         P3          |         P6          |            16.777.216 (RGB)         |
 
 # RUN EXAMPLE: 
-"C:" represents keyboard typed command <br>
-```C: LOAD test_file```  <br/>
+``` These are commands typed by the user ``` <br/>
+```LOAD test_file```  <br/>
 Loaded test_file <br/>
-```C: SELECT 0 1 8 10``` <br/>
+```SELECT 0 1 8 10``` <br/>
 Selected 0 1 8 10 <br/>
-```C: CROP```<br/>
+```CROP```<br/>
 Image cropped<br/>
-```C: SAVE my_binary_file```<br/>
+```SAVE my_binary_file```<br/>
 Saved my_binary_file<br/>
-```C: LOAD non_existent_file```<br/>
+```LOAD non_existent_file```<br/>
 Failed to load non_existent_file<br/>
-```C: LOAD color_file```<br/>
+```LOAD color_file```<br/>
 Loaded color_file<br/>
-```C:GRAYSCALE```<br/>
+```GRAYSCALE```<br/>
 Grayscale filter applied<br/>
-```C: SEPIA```<br/>
+```SEPIA```<br/>
 Sepia filter not available<br/>
-```C: SAVE my_plain_file ascii```<br/>
+```SAVE my_plain_file ascii```<br/>
 Saved my_plain_file<br/>
-```C: EXIT```<br/>
+```EXIT```<br/>
 
 # GENERATE YOUR OWN IMAGE:
 To generate your own PNM and PGM files, use the "convert" utility that converts png / jpeg / jpg files to these formats:<br/>
