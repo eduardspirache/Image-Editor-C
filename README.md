@@ -7,7 +7,7 @@ I developed a Netpbm image editor during my first year at university, which did 
 |      GRAYSCALE     |         P2          |         P5          |    0 - 255 (black & white shade)    |
 |      RGB           |         P3          |         P6          |            16.777.216 (RGB)         |
 
-# RUN EXAMPLE: 
+# How to Use Example
 ``` These are commands typed by the user ``` <br/>
 ```LOAD test_file```  <br/>
 Loaded test_file <br/>
@@ -29,7 +29,7 @@ Sepia filter not available<br/>
 Saved my_plain_file<br/>
 ```EXIT```<br/>
 
-# GENERATE YOUR OWN IMAGE:
+# Generate Own Image
 To generate your own PNM and PGM files, use the "convert" utility that converts png / jpeg / jpg files to these formats:<br/>
 • Setup: <br>
 $ sudo apt update <br>
